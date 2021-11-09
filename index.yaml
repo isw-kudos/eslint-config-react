@@ -1,0 +1,49 @@
+extends:
+  - react-app
+  - "plugin:react/recommended"
+  - "plugin:react-hooks/recommended"
+plugins:
+  - import
+rules:
+  import/no-namespace: off
+  import/no-nodejs-modules: error
+  import/order:
+    - error
+    - newlines-between: always
+      groups:
+        - builtin
+        - external
+        - - parent
+          - sibling
+        - index
+      pathGroups:
+        - pattern: ./*@(css|scss)
+          group: index
+          position: after
+        - pattern: ../*@(css|scss)
+          group: index
+          position: after
+      alphabetize:
+        order: asc
+        caseInsensitive: true
+  no-invalid-this: off
+  react/prop-types: off
+  react/self-closing-comp:
+    - error
+    - component: true
+      html: true
+  react-hooks/exhaustive-deps: error
+globals:
+  window: true
+  document: true
+settings:
+  react:
+    version: latest
+  import/resolver:
+    node:
+      moduleDirectory:
+        - node_modules
+        - src/
+      extensions:
+        - .js
+        - .jsx

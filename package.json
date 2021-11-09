@@ -1,0 +1,37 @@
+{
+  "name": "@huddo/eslint-config-react",
+  "version": "1.0.0",
+  "description": "huddo eslint config for react",
+  "main": "index.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "js-yaml index.yaml > index.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isw-kudos/eslint-config-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isw-kudos/eslint-config-react/issues"
+  },
+  "homepage": "https://github.com/isw-kudos/eslint-config-react#readme",
+  "dependencies": {
+    "eslint-config-react-app": "^6.0.0",
+    "eslint-plugin-flowtype": "^5.2.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.26.1",
+    "eslint-plugin-react-hooks": "^4.2.0"
+  },
+  "devDependencies": {
+    "js-yaml": "^4.1.0"
+  },
+  "peerDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/eslint-parser": "^7.16.0",
+    "eslint": "^8.2.0"
+  }
+}
