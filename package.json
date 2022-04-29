@@ -1,6 +1,6 @@
 {
   "name": "@huddo/eslint-config-react",
-  "version": "2.0.0-alpha.1",
+  "version": "2.0.0-alpha.5",
   "description": "huddo eslint config for react",
   "main": "index.json",
   "scripts": {
