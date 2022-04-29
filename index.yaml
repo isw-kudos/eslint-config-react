@@ -3,6 +3,7 @@ extends:
   - "plugin:react/recommended"
   - "plugin:react-hooks/recommended"
 plugins:
+  - react
   - import
 rules:
   import/no-namespace: off
@@ -38,7 +39,7 @@ globals:
   document: true
 settings:
   react:
-    version: latest
+    version: detect
   import/resolver:
     node:
       moduleDirectory:
