@@ -1,6 +1,6 @@
 {
   "name": "@huddo/eslint-config-react",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "huddo eslint config for react",
   "main": "index.json",
   "scripts": {
@@ -19,19 +19,14 @@
   },
   "homepage": "https://github.com/isw-kudos/eslint-config-react#readme",
   "dependencies": {
-    "eslint-config-react-app": "^7.0.1",
-    "eslint-plugin-flowtype": "^8.0.3",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-jsx-a11y": "^6.6.1",
-    "eslint-plugin-react": "^7.30.1",
-    "eslint-plugin-react-hooks": "^4.6.0"
+    "eslint-config-react-app": "^7.0.1"
   },
   "devDependencies": {
     "js-yaml": "^4.1.0"
   },
   "peerDependencies": {
-    "@babel/core": "^7.16.0",
-    "@babel/eslint-parser": "^7.16.0",
-    "eslint": "^8.2.0"
+    "@babel/core": "^7.23.0",
+    "@babel/eslint-parser": "^7.22.15",
+    "eslint": "^8.50.0"
   }
 }
